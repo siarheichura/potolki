@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    width: 150px;
+    height: 70px;
+    background: url('../../../assets/logo1.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+
+
+    &_icons {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    &_icon {
+      fill: #2e2f2e;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        fill: #5d5d5d;
+        transform: translateY(-1px);
+      }
+    }
+  }
+}
