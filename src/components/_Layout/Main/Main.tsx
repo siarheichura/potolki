@@ -1,6 +1,9 @@
 import React from 'react'
 import './Main.scss'
+import { Calculator } from '../../Calculator/Calculator'
 
 export const Main = () => {
-  return <div>MAIN</div>
+  return <main>
+    <Calculator />
+  </main>
 }
