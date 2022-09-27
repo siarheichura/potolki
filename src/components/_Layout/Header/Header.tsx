@@ -11,7 +11,7 @@ export const Header = () => {
         <TelegramIcon className='info_icon' />
         <InstagramIcon className='info_icon' />
       </div>
-      <div>
+      <div className='info_tel'>
         <PhoneOutlined style={{ transform: 'rotateY(180deg)' }} />
         +375(44)000-00-00
       </div>
