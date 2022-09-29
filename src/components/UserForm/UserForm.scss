@@ -1,0 +1,20 @@
+.user-form {
+  display: flex;
+  flex-direction: column;
+
+  &_inputs {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+  }
+
+  &_label {
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &_button {
+    align-self: flex-end;
+  }
+}
