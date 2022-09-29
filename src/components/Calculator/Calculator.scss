@@ -1,0 +1,16 @@
+.calculator {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+
+  &_sum {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+    span {
+      font-size: 30px;
+      font-weight: 900;
+    }
+  }
+}

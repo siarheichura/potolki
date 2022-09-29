@@ -1,9 +1,16 @@
 import React from 'react'
 import './Main.scss'
+
 import { Calculator } from '../../Calculator/Calculator'
+import { TextArea } from '../../TextArea/TextArea'
+import { UserForm } from '../../UserForm/UserForm'
 
 export const Main = () => {
   return <main>
-    <Calculator />
+    <div className='main-container'>
+      <Calculator />
+      <TextArea label='Дополнительные работы (просчитываются индивидуально):' rows={3} />
+      <UserForm />
+    </div>
   </main>
 }

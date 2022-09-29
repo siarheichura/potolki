@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Calculator.scss'
+
 import { Puller } from './Puller/Puller'
 
 interface CalculatorValueI {
@@ -35,7 +36,7 @@ export const Calculator = () => {
   }
 
   return (
-    <>
+    <div className='calculator'>
       <Puller
         name='Площадь потолка, кв.м.'
         value={calcValue.square}
@@ -48,6 +49,7 @@ export const Calculator = () => {
         value={calcValue.lightPoints}
         min={0}
         max={10}
+        tooltipText='Тут можно описать что такое Точки света'
         onChange={(value: number) => onChange({ ...calcValue, lightPoints: value })}
       />
       <Puller
@@ -64,7 +66,10 @@ export const Calculator = () => {
         max={50}
         onChange={(value: number) => onChange({ ...calcValue, secretCornice: value })}
       />
-      <div>{totalAmount}</div>
-    </>
+      <div className='calculator_sum'>
+        Приблизительная стоимость:
+        <span> {totalAmount}$</span>
+      </div>
+    </div>
   )
 }
