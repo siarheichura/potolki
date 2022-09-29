@@ -9,7 +9,7 @@ export const Main = () => {
   return <main>
     <div className='main-container'>
       <Calculator />
-      <TextArea label='Дополнительные работы (просчитываются индивидуально):' rows={3} />
+      <TextArea label='Дополнительныеeee работы (просчитываются индивидуально):' rows={3} />
       <UserForm />
     </div>
   </main>
