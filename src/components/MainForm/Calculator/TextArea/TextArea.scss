@@ -1,7 +1,7 @@
-.puller {
+.text-area {
   width: 100%;
 
-  &_name {
+  &_label {
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -11,17 +11,5 @@
       font-size: 14px;
       cursor: pointer;
     }
-  }
-
-  &_form {
-    display: flex;
-  }
-
-  &_slider {
-    width: 85%;
-  }
-
-  &_input {
-    width: 15%;
   }
 }
