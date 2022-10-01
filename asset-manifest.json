@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/potolki/static/css/main.654a366e.css",
-    "main.js": "/potolki/static/js/main.81dfc13a.js",
+    "main.css": "/potolki/static/css/main.04bd759c.css",
+    "main.js": "/potolki/static/js/main.cb62acfc.js",
     "static/js/787.54ce6557.chunk.js": "/potolki/static/js/787.54ce6557.chunk.js",
     "static/media/logo.png": "/potolki/static/media/logo.7f24cb7dadcc7d83c3fb.png",
     "index.html": "/potolki/index.html",
-    "main.654a366e.css.map": "/potolki/static/css/main.654a366e.css.map",
-    "main.81dfc13a.js.map": "/potolki/static/js/main.81dfc13a.js.map",
+    "main.04bd759c.css.map": "/potolki/static/css/main.04bd759c.css.map",
+    "main.cb62acfc.js.map": "/potolki/static/js/main.cb62acfc.js.map",
     "787.54ce6557.chunk.js.map": "/potolki/static/js/787.54ce6557.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.654a366e.css",
-    "static/js/main.81dfc13a.js"
+    "static/css/main.04bd759c.css",
+    "static/js/main.cb62acfc.js"
   ]
 }
