@@ -1,6 +1,8 @@
 .layout {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 80px 1fr 20px;
-  background-color: #eeeeee;
+  grid-template-rows: 70px 1fr 20px;
+  background: url('../../assets/background.jpeg') no-repeat center top;
+  background-size: cover;
+  position: relative;
 }

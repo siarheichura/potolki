@@ -1,7 +1,6 @@
 import React from 'react'
 import './TextArea.scss'
-import { Input, Tooltip } from 'antd'
-import { InfoCircleOutlined } from '@ant-design/icons'
+import { Input } from 'antd'
 
 const { TextArea: TextAreaAntd } = Input
 
@@ -16,13 +15,6 @@ export const TextArea = ({ label, rows, onChange }: PropsI) => {
     <div className='text-area'>
       <div className='text-area_label'>
         {label}
-        <Tooltip
-          placement='right'
-          title='Световые линии, подсветка, и др. (доработать)'
-          overlayInnerStyle={{ fontSize: '12px' }}
-        >
-          <InfoCircleOutlined className='text-area_label-icon' />
-        </Tooltip>
       </div>
       <TextAreaAntd
         rows={rows}

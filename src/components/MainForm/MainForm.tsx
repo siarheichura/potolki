@@ -57,7 +57,7 @@ export const MainForm = () => {
   }
 
   return (
-    <div>
+    <div className='main-form'>
       <Calculator
         calculatorValue={calculatorValue}
         setCalculatorValue={setCalculatorValue}
