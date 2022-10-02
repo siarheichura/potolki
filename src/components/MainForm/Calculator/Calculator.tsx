@@ -16,6 +16,7 @@ export const Calculator = ({ calculatorValue, setCalculatorValue, totalAmount }:
 
   return (
     <div className='calculator'>
+      <div className='calculator_title'>КАЛЬКУЛЯТОР СТОИМОСТИ</div>
       <Slider
         name='Площадь потолка, кв.м.'
         value={calculatorValue.square}
@@ -24,34 +25,33 @@ export const Calculator = ({ calculatorValue, setCalculatorValue, totalAmount }:
         onChange={(value: number) => onChange({ ...calculatorValue, square: value })}
       />
       <Slider
-        name='Точки света, шт.'
+        name='Точечные светильники (без учета стоимости самих светильников), шт.'
         value={calculatorValue.lightPoints}
         min={0}
         max={20}
-        tooltipText='Установка люстры, светильников тыры пыры'
         onChange={(value: number) => onChange({ ...calculatorValue, lightPoints: value })}
       />
       <Slider
-        name='Потолочный карниз, пог.м.'
+        name='Потолочный карниз (установка с нашим карнизом), пог.м.'
         value={calculatorValue.cornice}
         min={0}
         max={50}
         onChange={(value: number) => onChange({ ...calculatorValue, cornice: value })}
       />
       <Slider
-        name='Скрытый карниз, пог.м.'
+        name='Скрытый карниз (установка с нашим карнизом), пог.м.'
         value={calculatorValue.secretCornice}
         min={0}
         max={50}
         onChange={(value: number) => onChange({ ...calculatorValue, secretCornice: value })}
       />
       <TextArea
-        label='Дополнительные работы (просчитываются индивидуально):'
+        label='Дополнительные работы (просчитываются индивидуально): дополнительное освещение зон, двухуровневый, парящие и т.д.'
         rows={3}
         onChange={(value: string) => onChange({ ...calculatorValue, additionalInfo: value })}
       />
       <div className='calculator_sum'>
-        Приблизительная стоимость:
+        ПРИБЛИЗИТЕЛЬНАЯ СТОИМОСТЬ:
         <span> {totalAmount}$</span>
       </div>
     </div>

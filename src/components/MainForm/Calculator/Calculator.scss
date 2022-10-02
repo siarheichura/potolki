@@ -4,13 +4,20 @@
   flex-direction: column;
   margin-bottom: 10px;
 
+  &_title {
+    width: 100%;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+  }
+
   &_sum {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
 
     span {
-      font-size: 30px;
-      font-weight: 900;
+      font-size: 32px;
+      font-weight: 700;
     }
   }
 }

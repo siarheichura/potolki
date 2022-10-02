@@ -1,4 +1,4 @@
-export interface MainFormI {
+export interface _interfaces {
   square: number
   lightPoints: number
   cornice: number

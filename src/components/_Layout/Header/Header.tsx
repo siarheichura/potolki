@@ -1,19 +1,20 @@
 import React from 'react'
 import './Header.scss'
 import { InstagramIcon, TelegramIcon } from '../../Icons/Icons'
-import { PhoneOutlined } from '@ant-design/icons'
+import { POTOLKI_LINKS } from '../../../_constants'
 
 export const Header = () => {
+  const {TEL, TEL_HREF} = POTOLKI_LINKS
+
   return <header>
-    <div className='logo'></div>
-    <div className='info'>
-      <div className='info_icons'>
-        <TelegramIcon className='info_icon' />
-        <InstagramIcon className='info_icon' />
-      </div>
-      <div className='info_tel'>
-        <PhoneOutlined style={{ transform: 'rotateY(180deg)' }} />
-        +375(44)000-00-00
+    <div className='main-container'>
+      <div className='header-container'>
+        <div className='logo'></div>
+        <div className='info'>
+          <a href={TEL_HREF} className='info_tel'>{TEL}</a>
+          <TelegramIcon className='info_icon' />
+          <InstagramIcon className='info_icon' />
+        </div>
       </div>
     </div>
   </header>
