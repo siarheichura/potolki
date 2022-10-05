@@ -1,14 +1,11 @@
 import axios from 'axios'
 import { message } from 'antd'
 import { _interfaces } from '../_interfaces'
-import { TG_BOT_DATA } from '../_constants'
-
-// Get bot updates
-// https://api.telegram.org/bot5668368771:AAGY3FWnRglhcdnFjOmUDgcN2QgDFXvQ3Ow/getUpdates
 
 export const sendMessage = async (data: _interfaces) => {
   try {
-    const { token, chatId } = TG_BOT_DATA
+    const token = process.env.REACT_APP_TG_TOKEN
+    const chatId = process.env.REACT_APP_TG_CHAT_ID
     const msg = createMessage(data)
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${msg}&parse_mode=html`
     const result = await axios.get(url)
