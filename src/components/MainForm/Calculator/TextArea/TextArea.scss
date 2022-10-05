@@ -5,6 +5,7 @@
 
   &_label {
     @include label;
+    margin-bottom: 5px;
 
     &-icon {
       font-size: 14px;
