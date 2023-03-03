@@ -1,7 +1,7 @@
 {
   "name": "potolki",
   "version": "0.1.0",
-  "homepage": "https://potolkisokol.herokuapp.com/",
+  "homepage": "https://siarheichura.github.io/potolki/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
