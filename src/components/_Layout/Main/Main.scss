@@ -4,17 +4,6 @@
   display: grid;
   position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: -65px;
-    left: 0;
-    width: 100%;
-    height: calc(100% + 65px);
-    background: url('../../../assets/background.jpeg') top / cover no-repeat; /* Фон */
-    z-index: -1;
-  }
-
   &__container {
     display: flex;
     flex-direction: column;
