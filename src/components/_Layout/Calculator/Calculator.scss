@@ -1,0 +1,9 @@
+.calc {
+  padding: 65px 0 15px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 70px 1fr 20px;
+  background: url('../../../assets/background.jpeg') no-repeat center top;
+  background-size: cover;
+  position: relative;
+}

@@ -1,3 +1,55 @@
-main {
+.main {
   padding: 15px 0;
+  min-height: calc(100vh - 65px);
+  display: grid;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -65px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 65px);
+    background: url('../../../assets/background.jpeg') top / cover no-repeat; /* Фон */
+    z-index: -1;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    padding-top: 50px;
+    font-size: 52px;
+    color: #d4d4d4;
+  }
+
+  &__button {
+    width: 240px;
+    padding: 18px 0;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: #d4d4d4;
+    color: #d4d4d4;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    min-height: calc(100vh - 90px);
+  }
+
+  .main::before {
+    top: -90px;
+    height: calc(100% + 90px);
+    min-height: calc(100vh - 90px);
+  }
+
+  h1 {
+    font-size: 36px;
+  }
 }

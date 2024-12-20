@@ -1,6 +1,9 @@
 header {
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
+  padding-top: 15px;
 
   .header-container {
     display: flex;
@@ -14,34 +17,5 @@ header {
     background: url('../../../assets/new_logo.svg') no-repeat center center;
     background-size: contain;
     cursor: pointer;
-  }
-
-  .info {
-    height: 100%;
-    display: flex;
-    gap: 5px;
-
-
-    &_icons {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-
-    &_icon {
-      fill: #d4d4d4;
-      cursor: pointer;
-      transition: 0.3s;
-
-      &:hover {
-        transform: translateY(-1px);
-      }
-    }
-
-    &_tel {
-      font-size: 16px;
-      color: #d4d4d4;
-      font-weight: 500;
-    }
   }
 }
