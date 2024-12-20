@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/potolki/static/css/main.e9ddd312.css",
+    "main.css": "/potolki/static/css/main.2d8500ca.css",
     "main.js": "/potolki/static/js/main.300f6ef0.js",
     "static/media/background.jpeg": "/potolki/static/media/background.919f1aee60cafff10dc9.jpeg",
     "static/media/ex-4.MOV": "/potolki/static/media/ex-4.06801c4814e955914420.MOV",
@@ -9,11 +9,11 @@
     "static/media/new_logo.svg": "/potolki/static/media/new_logo.fe6bc468211f852adbe5.svg",
     "static/media/ex-1.jpg": "/potolki/static/media/ex-1.71ec0cc8120c2190227a.jpg",
     "index.html": "/potolki/index.html",
-    "main.e9ddd312.css.map": "/potolki/static/css/main.e9ddd312.css.map",
+    "main.2d8500ca.css.map": "/potolki/static/css/main.2d8500ca.css.map",
     "main.300f6ef0.js.map": "/potolki/static/js/main.300f6ef0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ddd312.css",
+    "static/css/main.2d8500ca.css",
     "static/js/main.300f6ef0.js"
   ]
 }
