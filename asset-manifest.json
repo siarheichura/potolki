@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/potolki/static/css/main.2d8500ca.css",
-    "main.js": "/potolki/static/js/main.300f6ef0.js",
-    "static/media/background.jpeg": "/potolki/static/media/background.919f1aee60cafff10dc9.jpeg",
+    "main.css": "/potolki/static/css/main.007ac1b7.css",
+    "main.js": "/potolki/static/js/main.b0baf43e.js",
     "static/media/ex-4.MOV": "/potolki/static/media/ex-4.06801c4814e955914420.MOV",
-    "static/media/ex-3.jpg": "/potolki/static/media/ex-3.5241f17b7eba84af900d.jpg",
-    "static/media/ex-2.jpg": "/potolki/static/media/ex-2.b183f94b77c9980b65e1.jpg",
+    "static/media/background.avif": "/potolki/static/media/background.a1597e83e27ab06d9c52.avif",
+    "static/media/roboto-v47-cyrillic_latin_math_symbols-700.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-700.1bdb6d26b919053c6023.woff2",
+    "static/media/roboto-v47-cyrillic_latin_math_symbols-500.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-500.a91d5824101fc550d862.woff2",
+    "static/media/roboto-v47-cyrillic_latin_math_symbols-600.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-600.fc343b7c986545751a3b.woff2",
+    "static/media/roboto-v47-cyrillic_latin_math_symbols-300.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-300.bf1dcd767f4f73dc9b2b.woff2",
+    "static/media/roboto-v47-cyrillic_latin_math_symbols-regular.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-regular.f6d7cae531c65580d06f.woff2",
     "static/media/new_logo.svg": "/potolki/static/media/new_logo.fe6bc468211f852adbe5.svg",
-    "static/media/ex-1.jpg": "/potolki/static/media/ex-1.71ec0cc8120c2190227a.jpg",
+    "static/media/review-1.avif": "/potolki/static/media/review-1.00d1046f4f8870402909.avif",
+    "static/media/ex-2.avif": "/potolki/static/media/ex-2.7611d945fded29864117.avif",
+    "static/media/ex-3.avif": "/potolki/static/media/ex-3.ab529838bc72627a1482.avif",
+    "static/media/ex-1.avif": "/potolki/static/media/ex-1.fab8ba728ce5cf3301ba.avif",
+    "static/media/offer-1.avif": "/potolki/static/media/offer-1.b42120b3ab55d4c6d650.avif",
+    "static/media/offer-2.avif": "/potolki/static/media/offer-2.85eb96c7169ed9002e63.avif",
     "index.html": "/potolki/index.html",
-    "main.2d8500ca.css.map": "/potolki/static/css/main.2d8500ca.css.map",
-    "main.300f6ef0.js.map": "/potolki/static/js/main.300f6ef0.js.map"
+    "main.007ac1b7.css.map": "/potolki/static/css/main.007ac1b7.css.map",
+    "main.b0baf43e.js.map": "/potolki/static/js/main.b0baf43e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d8500ca.css",
-    "static/js/main.300f6ef0.js"
+    "static/css/main.007ac1b7.css",
+    "static/js/main.b0baf43e.js"
   ]
 }
