@@ -1,16 +1,18 @@
 import React from 'react'
-import { CarouselContainer } from '../../Carousel/Carousel'
-import { Info } from '../Info/Info'
+import { CarouselWithThumbnails } from './CarouselWithThumbnails/CarouselWithThumbnails'
 import './Examples.scss'
 
-export const Examples = () => {
+export const Examples = ({
+  galleryRef
+}: {
+  galleryRef: React.RefObject<HTMLDivElement>
+}) => {
   return (
-    <div className="examples">
-      <div className="examples__container container">
-        <div className="examples__title">ПРИМЕРЫ РАБОТ</div>
-        <CarouselContainer />
+    <div className="examples" ref={galleryRef}>
+      <div className="examples__container">
+        <h2 className="examples__title">ПРИМЕРЫ РАБОТ</h2>
+        <CarouselWithThumbnails />
       </div>
-      <Info />
     </div>
   )
 }

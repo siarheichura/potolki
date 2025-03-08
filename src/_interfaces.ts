@@ -8,3 +8,11 @@ export interface _interfaces {
   name: string
   tel: string
 }
+
+export type SectionRefs = {
+  calcRef: React.RefObject<HTMLDivElement>
+  galleryRef: React.RefObject<HTMLDivElement>
+  reviewsRef: React.RefObject<HTMLDivElement>
+  aboutRef: React.RefObject<HTMLDivElement>
+  offerRef: React.RefObject<HTMLDivElement>
+}

@@ -1,0 +1,23 @@
+@import "../../../../../../assets/scss/index.scss";
+
+.slider {
+  width: 100%;
+  margin-bottom: 10px;
+
+  &_name {
+    @include label;
+  }
+
+  &_form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_slider {
+    width: 83%;
+  }
+
+  &_input {
+    width: 15%;
+  }
+}

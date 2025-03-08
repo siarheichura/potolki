@@ -12,7 +12,9 @@ export const sendMessage = async (data: _interfaces) => {
     message.success('Спасибо! Мы свяжемся с Вами в ближайшее время')
     return result
   } catch (err) {
-    message.error('Что-то пошло не так :( сообщите, пожалуйста, об ошибке по телефону или в соцсетях')
+    message.error(
+      'Что-то пошло не так :( сообщите, пожалуйста, об ошибке по телефону или в соцсетях'
+    )
   }
 }
 

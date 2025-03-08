@@ -1,3 +1,5 @@
+@import '../../../assets/scss/index.scss';
+
 .examples {
   position: relative;
   width: 100%;
@@ -8,7 +10,9 @@
     text-align: center;
     flex-direction: column;
     padding: 100px 20px 0px;
-    height: calc(100vh - 85px);
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
   }
 
   &__title {
@@ -29,19 +33,13 @@
     height: 1px;
     background-color: #d4d4d4;
   }
-
-  .info {
-    position: relative;
-    padding: 30px;
-    justify-self: end;
-  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .examples {
     &__container {
-      padding: 30px 20px 20px;
-      padding-top: calc((100vh - 500px) / 2);
+      width: 100%;
+      padding: 100px 20px 20px;
     }
   }
 }

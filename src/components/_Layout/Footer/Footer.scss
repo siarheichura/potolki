@@ -1,0 +1,26 @@
+@import '../../../assets/scss/index.scss';
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный фон */
+  backdrop-filter: blur(10px);
+  padding: 15px 0;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &-container {
+      flex-direction: column;
+    }
+  }
+}

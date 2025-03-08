@@ -1,0 +1,15 @@
+@import '../../../../../../assets/scss/index.scss';
+
+.text-area {
+  width: 100%;
+
+  &_label {
+    @include label;
+    margin-bottom: 5px;
+
+    &-icon {
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}

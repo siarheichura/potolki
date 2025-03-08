@@ -1,0 +1,71 @@
+// 1. cd node_modules/antd/dist
+// 2. lessc --js seriy-theme.less ../../../src/style/custom-antd.css
+@import 'fonts.scss';
+
+*,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+h2,
+h3 {
+  color: #d4d4d4;
+}
+
+header,
+main,
+footer,
+.calc,
+.examples {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #d4d4d4;
+}
+
+.container {
+  width: calc(100% - 200px);
+  margin: 0 100px;
+}
+
+.gallery-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@mixin label {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+  }
+
+  .layout {
+    grid-template-rows: 100px 1fr 20px;
+  }
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  .user-form_inputs {
+    flex-direction: column;
+  }
+
+  .calculator_sum {
+    font-size: 16px;
+
+    span {
+      font-size: 28px;
+    }
+  }
+}

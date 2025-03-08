@@ -1,5 +1,7 @@
+@import '../../../assets/scss/index.scss';
+
 .main {
-  padding: 15px 0;
+  padding: 100px 0;
   min-height: calc(100vh - 65px);
   display: grid;
   position: relative;
@@ -7,6 +9,12 @@
   &__container {
     display: flex;
     flex-direction: column;
+  }
+
+  &__desc {
+    max-width: 90%;
+    font-size: 18px;
+    font-weight: 300;
   }
 
   h1 {
@@ -20,25 +28,45 @@
     padding: 18px 0;
     margin-top: 30px;
     font-size: 18px;
-    border-radius: 20px;
     background-color: transparent;
-    border-color: #d4d4d4;
+    border: 1px solid #d4d4d4;
     color: #d4d4d4;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5); /* Черная тень по всей кнопке */
+
+    &:hover {
+      box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    &:active {
+      box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.7);
+      transform: scale(0.98);
+    }
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .main {
-    min-height: calc(100vh - 90px);
+    min-height: 100vh;
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    &__desc {
+      font-size: 14px;
+    }
+
+    &__button {
+      font-size: 14px;
+      padding: 16px 0;
+    }
   }
 
   .main::before {
     top: -90px;
     height: calc(100% + 90px);
     min-height: calc(100vh - 90px);
-  }
-
-  h1 {
-    font-size: 36px;
   }
 }

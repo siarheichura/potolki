@@ -1,0 +1,51 @@
+@import '../../../../assets/scss/index.scss';
+
+.wrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carousel {
+  &__img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+}
+
+.row {
+  margin-top: 10px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img {
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 120px;
+    border: 2px solid #d4d4d4;
+
+    &:hover {
+      box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    &-active {
+      box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.6);
+      border: 2px solid white;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    &__img {
+      max-width: calc(100vw - 40px);
+      min-height: 250px;
+    }
+  }
+}

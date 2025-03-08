@@ -1,0 +1,32 @@
+@import '../../../../assets/scss/index.scss';
+
+.steps {
+  max-width: 65%;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  &__item {
+    flex: 1 1 33%;
+    padding-left: 0;
+  }
+
+  &__icon {
+    color: black;
+  }
+
+  .ant-steps-item-title {
+    color: white !important;
+  }
+
+  .ant-steps-item-item {
+    padding: 0;
+  }
+
+  .ant-steps-item-description {
+    color: #d4d4d4 !important;
+  }
+
+  &.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    padding-left: 0;
+  }
+}
