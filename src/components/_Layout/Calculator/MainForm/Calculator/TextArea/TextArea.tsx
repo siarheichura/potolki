@@ -13,7 +13,7 @@ interface PropsI {
 export const TextArea = ({ label, rows, onChange }: PropsI) => {
   return (
     <div className="text-area">
-      <div className="text-area_label">{label}</div>
+      <label className="text-area_label">{label}</label>
       <TextAreaAntd
         rows={rows}
         onChange={(input) => onChange(input.target.value)}

@@ -1,11 +1,13 @@
 import React from 'react'
-import '../src/style/custom-antd.css'
 import { Layout } from './components/_Layout/Layout'
+import '../src/style/custom-antd.css'
 
 export const App = () => {
   return (
     <>
-      <Layout />
+      <React.StrictMode>
+        <Layout />
+      </React.StrictMode>
     </>
   )
 }

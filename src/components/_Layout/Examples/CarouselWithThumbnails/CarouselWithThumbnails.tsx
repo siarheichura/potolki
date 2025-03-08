@@ -70,6 +70,7 @@ export const CarouselWithThumbnails = () => {
             xl={4}>
             {item.type === 'image' ? (
               <Image
+                alt='image'
                 height={65}
                 preview={false}
                 src={item.src}
