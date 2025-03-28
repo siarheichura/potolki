@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/potolki/static/css/main.e19b1821.css",
-    "main.js": "/potolki/static/js/main.b0baf43e.js",
-    "static/media/ex-4.MOV": "/potolki/static/media/ex-4.06801c4814e955914420.MOV",
+    "main.css": "/potolki/static/css/main.c9d95704.css",
+    "main.js": "/potolki/static/js/main.fcbe5d42.js",
+    "static/js/952.8f02c4ac.chunk.js": "/potolki/static/js/952.8f02c4ac.chunk.js",
     "static/media/background.avif": "/potolki/static/media/background.a1597e83e27ab06d9c52.avif",
     "static/media/roboto-v47-cyrillic_latin_math_symbols-700.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-700.1bdb6d26b919053c6023.woff2",
     "static/media/roboto-v47-cyrillic_latin_math_symbols-500.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-500.a91d5824101fc550d862.woff2",
@@ -10,18 +10,15 @@
     "static/media/roboto-v47-cyrillic_latin_math_symbols-300.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-300.bf1dcd767f4f73dc9b2b.woff2",
     "static/media/roboto-v47-cyrillic_latin_math_symbols-regular.woff2": "/potolki/static/media/roboto-v47-cyrillic_latin_math_symbols-regular.f6d7cae531c65580d06f.woff2",
     "static/media/new_logo.svg": "/potolki/static/media/new_logo.fe6bc468211f852adbe5.svg",
-    "static/media/review-1.avif": "/potolki/static/media/review-1.00d1046f4f8870402909.avif",
-    "static/media/ex-2.avif": "/potolki/static/media/ex-2.7611d945fded29864117.avif",
-    "static/media/ex-3.avif": "/potolki/static/media/ex-3.ab529838bc72627a1482.avif",
-    "static/media/ex-1.avif": "/potolki/static/media/ex-1.fab8ba728ce5cf3301ba.avif",
     "static/media/offer-1.avif": "/potolki/static/media/offer-1.b42120b3ab55d4c6d650.avif",
     "static/media/offer-2.avif": "/potolki/static/media/offer-2.85eb96c7169ed9002e63.avif",
     "index.html": "/potolki/index.html",
-    "main.e19b1821.css.map": "/potolki/static/css/main.e19b1821.css.map",
-    "main.b0baf43e.js.map": "/potolki/static/js/main.b0baf43e.js.map"
+    "main.c9d95704.css.map": "/potolki/static/css/main.c9d95704.css.map",
+    "main.fcbe5d42.js.map": "/potolki/static/js/main.fcbe5d42.js.map",
+    "952.8f02c4ac.chunk.js.map": "/potolki/static/js/952.8f02c4ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e19b1821.css",
-    "static/js/main.b0baf43e.js"
+    "static/css/main.c9d95704.css",
+    "static/js/main.fcbe5d42.js"
   ]
 }
