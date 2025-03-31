@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { Carousel } from 'antd'
-import image1 from '../../../assets/images/review-1.avif'
 import { supabase } from '../../../services/supabase'
 import './Reviews.scss'
 
-// const imageArray = [image1, image1, image1]
 interface ImageData {
   name: string
   url: string
 }
-const BUCKET_NAME = 'potolki-sokol' // Замени на своё название бакета
+
+const BUCKET_NAME = 'potolki-sokol'
 const FOLDER_NAME = 'reviews/'
 
 export const Reviews = ({
@@ -62,6 +61,8 @@ export const Reviews = ({
                     src={item.url}
                     alt="Описание изображения"
                     loading="lazy"
+                    width="500px"
+                    height="500px"
                   />
                 </div>
               </div>
